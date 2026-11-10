@@ -1,0 +1,1 @@
+Premium placeholder assets for The Scalable Leader.

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<circle cx="200" cy="200" r="180" fill="#0D1B2A"/>
+<circle cx="200" cy="200" r="165" fill="none" stroke="#C79A3B" stroke-width="6"/>
+<text x="200" y="180" text-anchor="middle" font-size="80" fill="#C79A3B" font-family="Georgia">TSL</text>
+<text x="200" y="235" text-anchor="middle" font-size="22" fill="white" font-family="Arial">THE SCALABLE LEADER</text>
+</svg>
