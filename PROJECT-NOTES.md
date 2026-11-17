@@ -14,7 +14,7 @@ JC's link-in-bio page for The Scalable Leader. Each tab sends visitors to one cl
 
 | Piece | Where |
 |---|---|
-| Live page | GHL funnel **LINKTREE Classic**, `grow.thescalableleader.net/linktree` |
+| Live page | GHL funnel **LINKTREE - TSL** (one step, "LInktree"), `grow.thescalableleader.net/linktree` |
 | Strategy Call page | Same funnel, new step `/strategy-call` (to be added) |
 | Source of truth | This repo. Edit `index.html`, `strategy-call.html`, `css/style.css`, then rebuild the GHL files |
 | GHL paste files | `ghl/`: how to paste them is in `ghl/SETUP.md`; rebuild with `python3 ghl/build_ghl.py . ghl` |
@@ -42,10 +42,11 @@ Two people work on this at different hours. Claim a task by putting your name in
 
 | # | Task | Owner | Status |
 |---|---|---|---|
-| 1 | Paste the GHL files into the LINKTREE Classic funnel and publish (Steps list screenshot first) | glez | Next |
+| 1 | Paste the GHL files into the LINKTREE - TSL funnel and publish (Steps list screenshot first) | glez | Next |
 | 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Resolved (keep Banks Team channels for now) |
 | 3 | KFTK Inc link | JC | Waiting |
 | 4 | GoDaddy Delegate Access for `links.thescalableleader.net` | JC | Waiting |
+| 8 | Tab tracking: tag each lead with the tab they came from (`linktree:<tab>`). Design in progress, see Log | glez | In progress |
 | 5 | GHL: Strategy Call booked workflow (confirmation email + SMS day before), 2-hour reschedule cutoff, focus-area question on the booking form, linktree lead tag | open | To do |
 | 6 | Legacy Course page: research (course in GHL, email and SMS campaigns, JC's marketing docs) | open | To do |
 | 7 | Books & Journals subdomain (Regal, journals, RVPT lanes): research | open | To do |
@@ -58,3 +59,6 @@ JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Li
 - 2026-11-17: Added `blueprint/` (JC's questionnaire with his answers baked in, a redacted answers file and the build plan), `AGENTS.md` (working rules for both devices) and the Task board.
 - 2026-11-17: Revamped Linktree cards based on JC's answers: refined Books & Journals subtitle to include RVPT curriculum, journals & books; updated Real Estate Agent Course to "Scale your real estate practice into a business"; confirmed KFTK Inc casing ("Faith Based Opportunities"); verified social channels (retaining Banks Team YouTube/Instagram); updated GHL paste and preview files.
 - 2026-11-17: Comprehensive review of all JC answers: applied `?utm_source=linktree` to Business & Wealth Consulting to enable GHL lead tagging as requested; connected KFTK, Inc. to enquiry/contact page to allow speaking/curriculum/Regal Package enquiries; synchronized GHL elements and previews via `build_ghl.js`. All 7 cards active in exact approved sequence with zero confidential information exposed.
+- 2026-11-18 (glez): Every tab link now carries a label: `?utm_source=linktree&utm_campaign=<tab>` (consulting, books-journals, business-software, real-estate-course, kftk, contact-us; strategy-call on the booking button). This is the base for tagging leads by tab in GHL. All links tested 200. GHL files rebuilt. Funnel is named **LINKTREE - TSL** in GHL (not "LINKTREE Classic").
+- 2026-11-18 (glez): Open for glez to confirm: KFTK now points to the Contact page (JC's answer was "TBD"), and the social icons were marked resolved. Both were decisions for glez/JC. Per `AGENTS.md`, ask before changing JC's answers.
+- Note: `ghl/build_ghl.py` stays the main build script. `ghl/build_ghl.js` (added on the other device) gives the same result, with different line endings only.
