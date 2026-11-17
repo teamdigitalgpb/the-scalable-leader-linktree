@@ -45,7 +45,7 @@ Two people work on this at different hours. Claim a task by putting your name in
 | 1 | Paste the GHL files into the LINKTREE - TSL funnel and publish (Steps list screenshot first) | glez | Next |
 | 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Resolved (keep Banks Team channels for now) |
 | 3 | KFTK Inc link | JC | Waiting |
-| 4 | GoDaddy Delegate Access for `links.thescalableleader.net` | JC | Waiting |
+| 4 | GoDaddy Delegate Access: get it set up, then add `links.thescalableleader.net` and remove the two stray Cloudflare nameserver entries from the DNS | glez | In progress |
 | 8 | Tab tracking: tag each lead with the tab they came from (`linktree:<tab>`). Design in progress, see Log | glez | In progress |
 | 5 | GHL: Strategy Call booked workflow (confirmation email + SMS day before), 2-hour reschedule cutoff, focus-area question on the booking form, linktree lead tag | open | To do |
 | 6 | Legacy Course page: research (course in GHL, email and SMS campaigns, JC's marketing docs) | open | To do |
@@ -62,3 +62,4 @@ JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Li
 - 2026-11-18 (glez): Every tab link now carries a label: `?utm_source=linktree&utm_campaign=<tab>` (consulting, books-journals, business-software, real-estate-course, kftk, contact-us; strategy-call on the booking button). This is the base for tagging leads by tab in GHL. All links tested 200. GHL files rebuilt. Funnel is named **LINKTREE - TSL** in GHL (not "LINKTREE Classic").
 - 2026-11-18 (glez): Open for glez to confirm: KFTK now points to the Contact page (JC's answer was "TBD"), and the social icons were marked resolved. Both were decisions for glez/JC. Per `AGENTS.md`, ask before changing JC's answers.
 - Note: `ghl/build_ghl.py` stays the main build script. `ghl/build_ghl.js` (added on the other device) gives the same result, with different line endings only.
+- 2026-11-18 (glez): GoDaddy access is glez's task. A DNS check today found the two Cloudflare nameserver entries still in GoDaddy's DNS (unchanged since Aug 21), so that cleanup is still open and goes with the same access.
