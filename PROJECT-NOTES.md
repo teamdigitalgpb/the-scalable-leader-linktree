@@ -42,11 +42,13 @@ Two people work on this at different hours. Claim a task by putting your name in
 
 | # | Task | Owner | Status |
 |---|---|---|---|
-| 1 | Paste the GHL files into the LINKTREE - TSL funnel and publish (Steps list screenshot first) | glez | Next |
+| 1 | Paste the GHL files into the LINKTREE - TSL funnel and publish. Order: create `/strategy-call` step, then swap element + Head code, clear Body code, publish | glez | In progress |
 | 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Resolved (keep Banks Team channels for now) |
 | 3 | KFTK Inc link | JC | Waiting |
 | 4 | GoDaddy Delegate Access: get it set up, then add `links.thescalableleader.net` and remove the two stray Cloudflare nameserver entries from the DNS | glez | In progress |
 | 8 | Tab tracking: tag each lead with the tab they came from (`linktree:<tab>`). Design in progress, see Log | glez | In progress |
+| 9 | Ask JC: (a) does the Business Software app already send its users to GHL with a tag? (b) where does the app's code live (which GitHub account)? Cloudflare Pages only hosts it | glez | To ask JC |
+| 10 | Books & Journals capture page: new GHL step with a short form that invites people to leave their details, plus a small "Just browse" link to the bookshop; tag `linktree:books-journals` | glez | Approved, build after go-live |
 | 5 | GHL: Strategy Call booked workflow (confirmation email + SMS day before), 2-hour reschedule cutoff, focus-area question on the booking form, linktree lead tag | open | To do |
 | 6 | Legacy Course page: research (course in GHL, email and SMS campaigns, JC's marketing docs) | open | To do |
 | 7 | Books & Journals subdomain (Regal, journals, RVPT lanes): research | open | To do |
@@ -63,3 +65,4 @@ JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Li
 - 2026-11-18 (glez): Open for glez to confirm: KFTK now points to the Contact page (JC's answer was "TBD"), and the social icons were marked resolved. Both were decisions for glez/JC. Per `AGENTS.md`, ask before changing JC's answers.
 - Note: `ghl/build_ghl.py` stays the main build script. `ghl/build_ghl.js` (added on the other device) gives the same result, with different line endings only.
 - 2026-11-18 (glez): GoDaddy access is glez's task. A DNS check today found the two Cloudflare nameserver entries still in GoDaddy's DNS (unchanged since Aug 21), so that cleanup is still open and goes with the same access.
+- 2026-11-18 (glez): The Linktree step answers at both `/linktree` and `/links-page` (same step ID), so one update covers both. The step editor has a separate **Publish** button.
