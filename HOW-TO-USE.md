@@ -1,5 +1,8 @@
 # The Scalable Leader — Linktree: How to Use
 
+> **Superseded 2026-11-17:** the linktree is now GHL-based. See `PROJECT-NOTES.md` and `ghl/SETUP.md`. The Vercel hosting steps below are kept for reference only.
+
+
 One page that links to every part of JC's business. Share it in bios, email signatures and QR codes.
 
 **Live address (once set up):** `https://links.thescalableleader.net`

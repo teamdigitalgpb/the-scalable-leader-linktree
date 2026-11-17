@@ -1,0 +1,33 @@
+<!-- ============================================================
+     THE SCALABLE LEADER — LINKTREE
+     PASTE 2 of 3  →  Funnel Settings → Tracking → FOOTER / BODY TRACKING CODE
+     Contains: the staggered card fade-in.
+     It waits for the cards to exist before running, because GHL
+     injects the HTML element after the page has already loaded.
+     ============================================================ -->
+
+<script>
+(function () {
+  var tries = 0;
+
+  function reveal() {
+    var cards = document.querySelectorAll('#tsl-tree .tsl-card');
+
+    if (!cards.length) {
+      if (++tries < 60) { setTimeout(reveal, 100); }
+      return;
+    }
+
+    cards.forEach(function (card, i) {
+      card.classList.add('tsl-preload');
+      setTimeout(function () { card.classList.add('tsl-in'); }, i * 150);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', reveal);
+  } else {
+    reveal();
+  }
+})();
+</script>

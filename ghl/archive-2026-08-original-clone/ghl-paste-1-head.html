@@ -1,0 +1,210 @@
+<!-- ============================================================
+     THE SCALABLE LEADER — LINKTREE
+     PASTE 1 of 3  →  Funnel Settings → Tracking → HEAD TRACKING CODE
+     Contains: Google Fonts + all CSS.
+     Every rule is scoped under #tsl-tree so nothing here can leak
+     out and restyle the rest of your GHL page.
+     ============================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+#tsl-tree{
+  --tsl-navy:#0D1B2A;
+  --tsl-gold:#C79A3B;
+  --tsl-ivory:#FAF8F5;
+  --tsl-text:#222;
+  --tsl-muted:#6b7280;
+  --tsl-radius:22px;
+  --tsl-shadow:0 20px 50px rgba(13,27,42,.12);
+  --tsl-transition:.35s ease;
+}
+
+/* ---- scoped reset (does NOT touch the rest of the GHL page) ---- */
+#tsl-tree,#tsl-tree *{margin:0;padding:0;box-sizing:border-box}
+#tsl-tree img{max-width:100%;display:block}
+
+/* ---- page canvas ---- */
+body{margin:0;background:#f8f4ee}
+#tsl-tree{
+  font-family:"Inter",system-ui,-apple-system,Segoe UI,sans-serif;
+  color:var(--tsl-text);
+  min-height:100vh;
+  padding:40px 20px;
+  background:
+    radial-gradient(circle at top right,rgba(199,154,59,.15),transparent 35%),
+    radial-gradient(circle at bottom left,rgba(13,27,42,.08),transparent 35%),
+    radial-gradient(circle at top,#ffffff,#f8f4ee);
+  background-attachment:fixed,fixed,scroll;
+  -webkit-font-smoothing:antialiased;
+}
+#tsl-tree .tsl-container{max-width:760px;margin:0 auto}
+
+/* ---- hero ---- */
+#tsl-tree .tsl-hero{text-align:center;margin-bottom:48px}
+#tsl-tree .tsl-logo-circle{
+  width:110px;height:110px;
+  margin:0 auto 24px;
+  border-radius:50%;
+  background:#fff;
+  border:2px solid var(--tsl-gold);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:var(--tsl-shadow);
+}
+#tsl-tree .tsl-logo-circle img{width:140px;max-width:140px}
+#tsl-tree .tsl-hero h1{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:3rem;
+  font-weight:700;
+  line-height:normal;
+  color:var(--tsl-navy);
+  letter-spacing:1px;
+  text-transform:none;
+}
+#tsl-tree .tsl-subtitle{
+  color:var(--tsl-gold);
+  letter-spacing:4px;
+  margin-top:8px;
+  font-size:.9rem;
+  font-weight:400;
+  line-height:normal;
+}
+#tsl-tree .tsl-divider{
+  width:80px;height:3px;
+  background:var(--tsl-gold);
+  margin:22px auto;
+  border-radius:99px;
+}
+#tsl-tree .tsl-hero-text{
+  max-width:560px;
+  margin:0 auto;
+  line-height:1.8;
+  font-size:1rem;
+  color:var(--tsl-muted);
+}
+
+/* ---- link cards ---- */
+#tsl-tree .tsl-links{display:flex;flex-direction:column;gap:18px}
+#tsl-tree .tsl-card{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  text-decoration:none;
+  color:inherit;
+  background:rgba(255,255,255,.78);
+  -webkit-backdrop-filter:blur(18px);
+  backdrop-filter:blur(18px);
+  border:1px solid rgba(255,255,255,.7);
+  border-radius:var(--tsl-radius);
+  padding:22px;
+  box-shadow:var(--tsl-shadow);
+  transition:var(--tsl-transition);
+}
+#tsl-tree .tsl-card:hover{
+  border:2px solid var(--tsl-gold);
+  background:linear-gradient(135deg,#fffdf9,#fff7ea);
+  box-shadow:0 20px 40px rgba(13,27,42,.18),0 0 20px rgba(199,154,59,.25);
+}
+#tsl-tree .tsl-icon-box{
+  width:62px;height:62px;
+  border-radius:18px;
+  background:#ece2d2;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+#tsl-tree .tsl-icon-box svg{width:30px;height:30px;display:block}
+#tsl-tree .tsl-content{flex:1;min-width:0}
+#tsl-tree .tsl-content h2{
+  font-family:"Inter",system-ui,sans-serif;
+  font-size:1rem;
+  font-weight:700;
+  line-height:normal;
+  color:var(--tsl-navy);
+  margin:0 0 6px;
+  letter-spacing:normal;
+  text-transform:none;
+}
+#tsl-tree .tsl-content p{
+  color:var(--tsl-muted);
+  font-size:.92rem;
+  line-height:normal;
+  margin:0;
+}
+#tsl-tree .tsl-arrow svg{width:22px;height:22px;display:block;transition:var(--tsl-transition)}
+#tsl-tree .tsl-card:hover .tsl-arrow svg{transform:translateX(6px)}
+
+/* ---- social ---- */
+#tsl-tree .tsl-section-title{
+  display:flex;align-items:center;gap:15px;
+  margin:60px 0 24px;
+}
+#tsl-tree .tsl-section-title span{flex:1;height:1px;background:#ddd}
+#tsl-tree .tsl-section-title h3{
+  font-family:"Inter",system-ui,sans-serif;
+  color:var(--tsl-gold);
+  letter-spacing:3px;
+  font-size:.8rem;
+  font-weight:700;
+  line-height:normal;
+  margin:0;
+  text-transform:none;
+}
+#tsl-tree .tsl-social-icons{display:flex;justify-content:center;gap:18px}
+#tsl-tree .tsl-social-icons a{
+  width:54px;height:54px;
+  border-radius:50%;
+  background:#19082e;
+  display:flex;justify-content:center;align-items:center;
+  box-shadow:var(--tsl-shadow);
+  transition:var(--tsl-transition);
+  text-decoration:none;
+}
+#tsl-tree .tsl-social-icons a:hover{background:var(--tsl-gold);transform:translateY(-4px)}
+#tsl-tree .tsl-social-icons svg{width:24px;height:24px;display:block}
+
+/* ---- quote ---- */
+#tsl-tree .tsl-quote{
+  margin:60px 0;
+  background:var(--tsl-navy);
+  color:#fff;
+  border-radius:var(--tsl-radius);
+  padding:40px;
+  text-align:center;
+  box-shadow:var(--tsl-shadow);
+}
+#tsl-tree .tsl-quote-mark{font-size:4rem;color:var(--tsl-gold);line-height:1}
+#tsl-tree .tsl-quote blockquote{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:2rem;
+  font-weight:400;
+  line-height:normal;
+  color:#fff;
+  margin:12px 0 20px;
+  padding:0;
+  border:0;
+  quotes:none;
+}
+#tsl-tree .tsl-signature{color:var(--tsl-gold);font-style:italic;font-size:1rem}
+
+/* ---- footer ---- */
+#tsl-tree .tsl-footer{text-align:center;color:var(--tsl-muted);padding-bottom:20px}
+#tsl-tree .tsl-footer p{font-size:1rem;line-height:normal;margin:0}
+
+/* ---- entrance animation ---- */
+#tsl-tree .tsl-card.tsl-preload{opacity:0}
+#tsl-tree .tsl-card.tsl-in{opacity:1;transition:opacity .5s ease}
+
+/* ---- mobile ---- */
+@media (max-width:768px){
+  #tsl-tree{padding:24px 16px}
+  #tsl-tree .tsl-hero h1{font-size:2.2rem}
+  #tsl-tree .tsl-card{padding:18px}
+  #tsl-tree .tsl-quote blockquote{font-size:1.5rem}
+}
+@media (prefers-reduced-motion:reduce){
+  #tsl-tree .tsl-card.tsl-preload{opacity:1}
+  #tsl-tree *{transition:none!important}
+}
+</style>

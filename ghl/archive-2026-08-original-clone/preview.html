@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Scalable Leader | Coach &bull; Consultant &bull; Author</title>
+<!-- PREVIEW ONLY. Assembled from the three GHL paste files, unmodified.
+     Do not paste this file into GHL - use the three ghl-paste-*.html files. -->
+<!-- ============================================================
+     THE SCALABLE LEADER — LINKTREE
+     PASTE 1 of 3  →  Funnel Settings → Tracking → HEAD TRACKING CODE
+     Contains: Google Fonts + all CSS.
+     Every rule is scoped under #tsl-tree so nothing here can leak
+     out and restyle the rest of your GHL page.
+     ============================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+#tsl-tree{
+  --tsl-navy:#0D1B2A;
+  --tsl-gold:#C79A3B;
+  --tsl-ivory:#FAF8F5;
+  --tsl-text:#222;
+  --tsl-muted:#6b7280;
+  --tsl-radius:22px;
+  --tsl-shadow:0 20px 50px rgba(13,27,42,.12);
+  --tsl-transition:.35s ease;
+}
+
+/* ---- scoped reset (does NOT touch the rest of the GHL page) ---- */
+#tsl-tree,#tsl-tree *{margin:0;padding:0;box-sizing:border-box}
+#tsl-tree img{max-width:100%;display:block}
+
+/* ---- page canvas ---- */
+body{margin:0;background:#f8f4ee}
+#tsl-tree{
+  font-family:"Inter",system-ui,-apple-system,Segoe UI,sans-serif;
+  color:var(--tsl-text);
+  min-height:100vh;
+  padding:40px 20px;
+  background:
+    radial-gradient(circle at top right,rgba(199,154,59,.15),transparent 35%),
+    radial-gradient(circle at bottom left,rgba(13,27,42,.08),transparent 35%),
+    radial-gradient(circle at top,#ffffff,#f8f4ee);
+  background-attachment:fixed,fixed,scroll;
+  -webkit-font-smoothing:antialiased;
+}
+#tsl-tree .tsl-container{max-width:760px;margin:0 auto}
+
+/* ---- hero ---- */
+#tsl-tree .tsl-hero{text-align:center;margin-bottom:48px}
+#tsl-tree .tsl-logo-circle{
+  width:110px;height:110px;
+  margin:0 auto 24px;
+  border-radius:50%;
+  background:#fff;
+  border:2px solid var(--tsl-gold);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:var(--tsl-shadow);
+}
+#tsl-tree .tsl-logo-circle img{width:140px;max-width:140px}
+#tsl-tree .tsl-hero h1{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:3rem;
+  font-weight:700;
+  line-height:normal;
+  color:var(--tsl-navy);
+  letter-spacing:1px;
+  text-transform:none;
+}
+#tsl-tree .tsl-subtitle{
+  color:var(--tsl-gold);
+  letter-spacing:4px;
+  margin-top:8px;
+  font-size:.9rem;
+  font-weight:400;
+  line-height:normal;
+}
+#tsl-tree .tsl-divider{
+  width:80px;height:3px;
+  background:var(--tsl-gold);
+  margin:22px auto;
+  border-radius:99px;
+}
+#tsl-tree .tsl-hero-text{
+  max-width:560px;
+  margin:0 auto;
+  line-height:1.8;
+  font-size:1rem;
+  color:var(--tsl-muted);
+}
+
+/* ---- link cards ---- */
+#tsl-tree .tsl-links{display:flex;flex-direction:column;gap:18px}
+#tsl-tree .tsl-card{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  text-decoration:none;
+  color:inherit;
+  background:rgba(255,255,255,.78);
+  -webkit-backdrop-filter:blur(18px);
+  backdrop-filter:blur(18px);
+  border:1px solid rgba(255,255,255,.7);
+  border-radius:var(--tsl-radius);
+  padding:22px;
+  box-shadow:var(--tsl-shadow);
+  transition:var(--tsl-transition);
+}
+#tsl-tree .tsl-card:hover{
+  border:2px solid var(--tsl-gold);
+  background:linear-gradient(135deg,#fffdf9,#fff7ea);
+  box-shadow:0 20px 40px rgba(13,27,42,.18),0 0 20px rgba(199,154,59,.25);
+}
+#tsl-tree .tsl-icon-box{
+  width:62px;height:62px;
+  border-radius:18px;
+  background:#ece2d2;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+#tsl-tree .tsl-icon-box svg{width:30px;height:30px;display:block}
+#tsl-tree .tsl-content{flex:1;min-width:0}
+#tsl-tree .tsl-content h2{
+  font-family:"Inter",system-ui,sans-serif;
+  font-size:1rem;
+  font-weight:700;
+  line-height:normal;
+  color:var(--tsl-navy);
+  margin:0 0 6px;
+  letter-spacing:normal;
+  text-transform:none;
+}
+#tsl-tree .tsl-content p{
+  color:var(--tsl-muted);
+  font-size:.92rem;
+  line-height:normal;
+  margin:0;
+}
+#tsl-tree .tsl-arrow svg{width:22px;height:22px;display:block;transition:var(--tsl-transition)}
+#tsl-tree .tsl-card:hover .tsl-arrow svg{transform:translateX(6px)}
+
+/* ---- social ---- */
+#tsl-tree .tsl-section-title{
+  display:flex;align-items:center;gap:15px;
+  margin:60px 0 24px;
+}
+#tsl-tree .tsl-section-title span{flex:1;height:1px;background:#ddd}
+#tsl-tree .tsl-section-title h3{
+  font-family:"Inter",system-ui,sans-serif;
+  color:var(--tsl-gold);
+  letter-spacing:3px;
+  font-size:.8rem;
+  font-weight:700;
+  line-height:normal;
+  margin:0;
+  text-transform:none;
+}
+#tsl-tree .tsl-social-icons{display:flex;justify-content:center;gap:18px}
+#tsl-tree .tsl-social-icons a{
+  width:54px;height:54px;
+  border-radius:50%;
+  background:#19082e;
+  display:flex;justify-content:center;align-items:center;
+  box-shadow:var(--tsl-shadow);
+  transition:var(--tsl-transition);
+  text-decoration:none;
+}
+#tsl-tree .tsl-social-icons a:hover{background:var(--tsl-gold);transform:translateY(-4px)}
+#tsl-tree .tsl-social-icons svg{width:24px;height:24px;display:block}
+
+/* ---- quote ---- */
+#tsl-tree .tsl-quote{
+  margin:60px 0;
+  background:var(--tsl-navy);
+  color:#fff;
+  border-radius:var(--tsl-radius);
+  padding:40px;
+  text-align:center;
+  box-shadow:var(--tsl-shadow);
+}
+#tsl-tree .tsl-quote-mark{font-size:4rem;color:var(--tsl-gold);line-height:1}
+#tsl-tree .tsl-quote blockquote{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:2rem;
+  font-weight:400;
+  line-height:normal;
+  color:#fff;
+  margin:12px 0 20px;
+  padding:0;
+  border:0;
+  quotes:none;
+}
+#tsl-tree .tsl-signature{color:var(--tsl-gold);font-style:italic;font-size:1rem}
+
+/* ---- footer ---- */
+#tsl-tree .tsl-footer{text-align:center;color:var(--tsl-muted);padding-bottom:20px}
+#tsl-tree .tsl-footer p{font-size:1rem;line-height:normal;margin:0}
+
+/* ---- entrance animation ---- */
+#tsl-tree .tsl-card.tsl-preload{opacity:0}
+#tsl-tree .tsl-card.tsl-in{opacity:1;transition:opacity .5s ease}
+
+/* ---- mobile ---- */
+@media (max-width:768px){
+  #tsl-tree{padding:24px 16px}
+  #tsl-tree .tsl-hero h1{font-size:2.2rem}
+  #tsl-tree .tsl-card{padding:18px}
+  #tsl-tree .tsl-quote blockquote{font-size:1.5rem}
+}
+@media (prefers-reduced-motion:reduce){
+  #tsl-tree .tsl-card.tsl-preload{opacity:1}
+  #tsl-tree *{transition:none!important}
+}
+</style>
+</head>
+<body>
+<!-- ============================================================
+     THE SCALABLE LEADER — LINKTREE
+     PASTE 3 of 3  →  the Custom HTML/Javascript ELEMENT on the page
+     Body markup only. No <style>, no <script> — GHL strips those here.
+     All icons are inline SVG, so nothing loads from an outside server.
+     LOGO: the one external file. Swap the src below for a GHL Media
+     Library URL if you ever take the Vercel deploy down.
+     ============================================================ -->
+
+<div id="tsl-tree">
+  <div class="tsl-container">
+
+    <!-- HERO -->
+    <header class="tsl-hero">
+      <div class="tsl-logo-circle">
+        <img src="https://the-scalable-leader-linktree.vercel.app/assets/logo.png" alt="The Scalable Leader logo">
+      </div>
+      <h1>THE SCALABLE LEADER</h1>
+      <p class="tsl-subtitle">COACH &bull; CONSULTANT &bull; AUTHOR</p>
+      <div class="tsl-divider"></div>
+      <p class="tsl-hero-text">I help ambitious professionals build wealth, grow their businesses, and create lasting impact.</p>
+    </header>
+
+    <!-- LINKS -->
+    <main class="tsl-links">
+
+      <a class="tsl-card" href="https://www.thescalableleader.net" target="_blank" rel="noopener noreferrer">
+        <div class="tsl-icon-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 52V16M24 52V28M36 52V22M48 52V10"/></svg>
+        </div>
+        <div class="tsl-content">
+          <h2>BUSINESS &amp; WEALTH CONSULTING</h2>
+          <p>Coaching and consulting</p>
+        </div>
+        <div class="tsl-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 32h36 M40 22l10 10-10 10"/></svg>
+        </div>
+      </a>
+
+      <a class="tsl-card" href="https://grow.thescalableleader.net/" target="_blank" rel="noopener noreferrer">
+        <div class="tsl-icon-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18h28v28H14z M42 28l10-6v20l-10-6"/></svg>
+        </div>
+        <div class="tsl-content">
+          <h2>REAL ESTATE AGENT COURSE</h2>
+          <p>Business, leadership, or wealth training</p>
+        </div>
+        <div class="tsl-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 32h36 M40 22l10 10-10 10"/></svg>
+        </div>
+      </a>
+
+      <a class="tsl-card" href="https://theleadersjournal.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <div class="tsl-icon-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 14h28v36H16z M30 14v36"/></svg>
+        </div>
+        <div class="tsl-content">
+          <h2>BOOKS &amp; JOURNALS</h2>
+          <p>Our books and journals on Lulu</p>
+        </div>
+        <div class="tsl-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 32h36 M40 22l10 10-10 10"/></svg>
+        </div>
+      </a>
+
+      <a class="tsl-card" href="https://api.leadconnectorhq.com/widget/booking/7sKRegEZuhTSQhKlX7Ri" target="_blank" rel="noopener noreferrer">
+        <div class="tsl-icon-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18h32v30H16z M16 26h32 M24 12v12 M40 12v12"/></svg>
+        </div>
+        <div class="tsl-content">
+          <h2>BOOK A STRATEGY CALL</h2>
+          <p>Schedule your consultation</p>
+        </div>
+        <div class="tsl-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 32h36 M40 22l10 10-10 10"/></svg>
+        </div>
+      </a>
+
+      <a class="tsl-card" href="https://grow.thescalableleader.net/contactpage" target="_blank" rel="noopener noreferrer">
+        <div class="tsl-icon-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 18h40v28H12z M12 20l20 16 20-16"/></svg>
+        </div>
+        <div class="tsl-content">
+          <h2>CONTACT US</h2>
+          <p>Email, WhatsApp and more</p>
+        </div>
+        <div class="tsl-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#C79A3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 32h36 M40 22l10 10-10 10"/></svg>
+        </div>
+      </a>
+
+    </main>
+
+    <!-- SOCIAL -->
+    <section class="tsl-social">
+      <div class="tsl-section-title">
+        <span></span>
+        <h3>LET'S CONNECT</h3>
+        <span></span>
+      </div>
+      <div class="tsl-social-icons">
+
+        <a href="https://www.youtube.com/@thebanksteamchannel/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1A1033"/><path fill="#C79A3B" d="M46 24.5c-.5-2-2.1-3.5-4.1-3.8C39.2 20 32 20 32 20s-7.2 0-9.9.7c-2 .3-3.6 1.8-4.1 3.8-.6 2.2-.6 7.5-.6 7.5s0 5.3.6 7.5c.5 2 2.1 3.5 4.1 3.8 2.7.7 9.9.7 9.9.7s7.2 0 9.9-.7c2-.3 3.6-1.8 4.1-3.8.6-2.2.6-7.5.6-7.5s0-5.3-.6-7.5z"/><path fill="#1A1033" d="M28 26l12 6-12 6z"/></svg>
+        </a>
+
+        <a href="https://www.instagram.com/thebanksteamadvisors/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1A1033"/><rect x="18" y="18" width="28" height="28" rx="8" ry="8" fill="none" stroke="#C79A3B" stroke-width="3"/><circle cx="32" cy="32" r="7" fill="none" stroke="#C79A3B" stroke-width="3"/><circle cx="40.5" cy="23.5" r="2" fill="#C79A3B"/></svg>
+        </a>
+
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=support@thescalableleader.net" target="_blank" rel="noopener noreferrer" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1A1033"/><rect x="17" y="22" width="30" height="20" rx="2" fill="none" stroke="#C79A3B" stroke-width="3"/><path d="M18 24l14 11 14-11" fill="none" stroke="#C79A3B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="tsl-quote">
+      <div class="tsl-quote-mark">&ldquo;</div>
+      <blockquote>Build your brand. Serve more people. Create a bigger impact.</blockquote>
+      <div class="tsl-signature">&mdash; JC</div>
+    </section>
+
+    <footer class="tsl-footer">
+      <p>&copy; 2026 The Scalable Leader</p>
+    </footer>
+
+  </div>
+</div>
+<!-- ============================================================
+     THE SCALABLE LEADER — LINKTREE
+     PASTE 2 of 3  →  Funnel Settings → Tracking → FOOTER / BODY TRACKING CODE
+     Contains: the staggered card fade-in.
+     It waits for the cards to exist before running, because GHL
+     injects the HTML element after the page has already loaded.
+     ============================================================ -->
+
+<script>
+(function () {
+  var tries = 0;
+
+  function reveal() {
+    var cards = document.querySelectorAll('#tsl-tree .tsl-card');
+
+    if (!cards.length) {
+      if (++tries < 60) { setTimeout(reveal, 100); }
+      return;
+    }
+
+    cards.forEach(function (card, i) {
+      card.classList.add('tsl-preload');
+      setTimeout(function () { card.classList.add('tsl-in'); }, i * 150);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', reveal);
+  } else {
+    reveal();
+  }
+})();
+</script>
+</body>
+</html>
