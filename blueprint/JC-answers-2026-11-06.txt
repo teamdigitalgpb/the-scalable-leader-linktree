@@ -1,0 +1,200 @@
+THE SCALABLE LEADER — LINKTREE BLUEPRINT
+Answers from JC · November 6, 2026
+
+
+=== BOOK A STRATEGY CALL ===
+
+Q: Price and length
+Proposed: $350 for a one-hour session
+A: Approve
+
+Q: Booking calendar
+Proposed: Use your existing GHL calendar “TSL Consulting Call”, the same one on your website's booking page
+A: Approve
+
+Q: If someone can't make it
+Proposed: They can reschedule
+A: in the appropiate timeframe yes. like 2 hours before meeting and we can make that know as well.
+
+Q: Who takes the calls
+Proposed: JC takes every strategy call
+A: Approve
+
+Q: After someone books
+Proposed: A confirmation email right after booking, and a text reminder the day before
+A: Approve
+
+Q: Which headline do you prefer for the Strategy Call page?
+A: JC took care of this already
+
+Q: What should people answer when they book?
+A: What focus leadership development, organization development or weatlh development
+
+
+=== BUSINESS & WEALTH CONSULTING ===
+
+Q: The short line under the title
+Proposed: Keep it as “Coaching and consulting”
+A: Change it — Consulting and coaching
+
+Q: Should leads who arrive from the linktree get their own tag in GHL?
+A: Yes, tag them
+
+
+=== REAL ESTATE AGENT COURSE ===
+
+Q: How should buyers get into the course?
+A: https://sites.leadconnectorhq.com/preview/zDHvksHY8ljitDR7mtf5
+
+Q: If you keep your own payment site: where do people pay today?
+A: see the funnel
+
+Q: Which GHL account should new buyers go into?
+A: Banks Team Advisors TX — legacycoachingco.com
+
+Q: Until the Legacy page is ready, what should this tab do?
+A: go to the ghl funnel site that Glez will put together
+
+
+=== BOOKS & JOURNALS ===
+
+Q: Where this tab goes
+Proposed: Keep it pointing to theleadersjournal.vercel.app
+A: Need R&D because we have th RVPT Curriculm book and we also have the 3 journals - org journal, leaders jounal and wealth journal (coming soon)
+
+Q: The RVPT
+Proposed: Add the finished RVPT to The Leader's Journal site
+A: Change it — Create subdomian - Can Add Regal Book lane, journals lane, rvpt curriculm lane
+
+Q: Top of the page
+Proposed: Feature the Journal and the RVPT first, at the top of the site
+A: (not answered yet)
+
+Q: Where will people get the RVPT?
+A: (not answered yet)
+
+
+=== BUSINESS SOFTWARE ===
+
+Q: Which GHL account should these requests go into?
+A: https://app.thescalableleader.net/demo
+
+Q: Who follows up, and within how long?
+A: Glez - The Scalable Leader
+
+
+=== TK INCORPORATED ===
+
+Q: What is TK Incorporated?
+A: KFTK, Inc (Kings For The Kingdom) - where the "Success with Kingdom Purpose" website minstry book can go as well.
+
+Q: Who is it for?
+A: Ministry
+
+Q: What should visitors do on the page?
+A: Send an enquiry — Book speaking engagement, purchase the curriculum, purchase my book Regal (Regal Package)
+
+Q: Booking or enquiry link for the page's main button
+A: TBD
+
+Q: The short line under the tab title
+A: Faith Based Opportunities
+
+Q: When your page is live, paste its link here
+A: (not answered yet)
+
+
+=== CONTACT US ===
+
+Q: Which ways should people reach you?
+A: Email, Phone, Contact form
+
+Q: Is support@thescalableleader.net the right email?
+A: yes
+
+
+=== GENERAL QUESTIONS ===
+
+Q: The linktree's address
+Proposed: links.thescalableleader.net
+A: Approve
+
+Q: What's your GitHub username?
+A: Glez will provide (she will use the one she already have access to)
+
+Q: Can you give glez Delegate Access in GoDaddy?
+A: (not answered yet)
+
+Q: The social icons link to The Banks Team YouTube and Instagram. Keep them?
+A: Attn: Glez
+
+Q: The linktree headline
+Proposed: Build wealth. Grow your business. Create lasting impact.
+A: Approve — Just make sure it is not used exactly like this online by some else.
+
+Q: Would you change the order of the tabs, or add or remove any?
+A: Buiness & Wealth, Books Journals, Business Software, RE Agent Course, KFTK Inc (formerly "TK Incorporated"), Contact Us
+
+Q: Anything else the linktree should do?
+A: Not sure at the time
+
+
+=== LEGACY COURSE PAGE ===
+
+Q: Who is the Legacy Course for?
+A: The legacy real estate course we created
+
+Q: What's the biggest result students get from it?
+A: Attn: Glez, JC - help the grow their real estate practice into a successful business. Also, R&D on course in GHL for content, review my email template campaings and sms campaigns for agents in TBTA - TX in GHL
+
+Q: What are the three biggest struggles of the agents you help?
+A: R&D on course in GHL for content, review my email template campaings and sms campaigns for agents in TBTA - TX in GHL
+
+Q: What's inside
+Proposed: List the 5 phases on the page, using the titles from the course in GHL
+A: Approve
+
+Q: Your story in a few lines: experience, results, why you teach this
+A: R&D on course in GHL for content, review my email template campaings and sms campaigns for agents in TBTA - TX in GHL
+
+Q: Testimonials or student results we can use
+A: Have one on the "https://sites.leadconnectorhq.com/preview/zDHvksHY8ljitDR7mtf5"
+
+Q: Price, and is it one payment, a plan, or a subscription?
+A: $197 one time
+
+Q: Should the Legacy Tool Kit or the Agency Accelerator Course appear on the page?
+A: Add the Tool Kit as a bonus
+
+Q: Do you offer a guarantee?
+A: Money back within 14 days — Money back gaurantee and in small print do the 14 days
+
+Q: What do agents usually ask before they buy?
+A: R&D and you can use some the marketing content i have as well (two of JC's Google Docs; links kept private)
+
+
+=== BUSINESS SOFTWARE PAGE ===
+
+Q: What best describes the software you're creating?
+A: Business operations, AI assistants — AI Assistance will be on version 2 we are working on that but it will also be another tier
+
+Q: What is each product called?
+A: one product for now https://app.thescalableleader.net/demo and https://app.thescalableleader.net, https://app.thescalableleader.net/audit
+
+Q: What makes it different from what's already on the market?
+A: Most platforms do one of three things: they run your business operations, they manage your money, or they coach your people. The Scalable Leader is the only one that holds all three in the same place. We looked at roughly 110 competing products, and four of our core capabilities had no equivalent anywhere — tracking the owner’s personal financial reality alongside the business, quality-of-life measurement, belief and mindset work, and holding a client’s full org structure inside the advisor’s own system. The things everyone else does well — goal cascades, scorecards, team alignment — we do too. The difference is that with us, your operating rhythm and your financial reality are the same object, not two systems someone has to reconcile by hand every week.
+
+Q: How does it help high-end family businesses specifically?
+A: For a family enterprise, the line between personal and business doesn’t really exist — but every tool on the market is built as if it does. You’re not one company; you’re operating entities, holding companies, maybe a foundation, and a family balance sheet underneath all of it. Our Entity Hub holds that entire ecosystem in one view instead of forcing it into software designed for a single business. And because the hardest problems in a family company are relational rather than operational, we built for that too — the platform measures quality of life and surfaces the beliefs driving decisions, not just the numbers.
+
+Q: What problem do those families face today without it?
+A: Nobody has the whole picture, so nobody can make the whole decision. The CPA sees last year’s tax return. The wealth advisor sees the investment accounts. The consultant sees the leadership meeting. The only person holding all three is the owner — in their head. That works until it doesn’t: until a succession, an illness, or a second generation that was never handed the full context. In the meantime, the team rebuilds its numbers by hand every week from systems that don’t talk to each other, and the personal consequences of business decisions stay invisible until an accountant mentions them months later.
+
+Q: Privacy and security: what should families know?
+A: Three things. First, every table in the system enforces row-level security — a family can only ever reach their own records, and that’s been independently audited, not just asserted. Second, no credentials or keys of any kind are ever sent to the browser; everything sensitive stays server-side in a protected vault. Third, accounts can be marked private, meaning that family never appears in any staff roster at all — not even to our own administrators. And deliberately: we do not connect to your bank accounts. Financial data comes through QuickBooks only. Account numbers and banking credentials never enter the system, because for families at this level that risk isn’t worth the convenience.
+
+Q: How exclusive is access?
+A: (not answered yet)
+
+Q: Anything else the request form should ask?
+A: They should start here - https://app.thescalableleader.net/intake

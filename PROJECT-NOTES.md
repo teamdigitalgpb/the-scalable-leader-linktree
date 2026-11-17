@@ -36,15 +36,23 @@ GHL limitation: the Custom HTML element does not run `<script>` and strips `<sty
 | 6 | KFTK Inc | link pending from JC | Held out of the GHL page until the link arrives |
 | 7 | Contact Us | grow.thescalableleader.net/contactpage | Live |
 
-## Open items
+## Task board
 
-1. Paste the GHL files and publish (needs a screenshot of the funnel's Steps list first).
-2. Social icons point to The Banks Team YouTube and Instagram. Glez to decide: keep, or switch to TSL channels.
-3. KFTK Inc link (JC).
-4. GoDaddy Delegate Access for `links.thescalableleader.net` (JC).
-5. GHL: Strategy Call booked workflow (confirmation email + SMS day before), 2-hour reschedule cutoff on the calendar, focus-area question on the booking form, and a tag for leads arriving from the linktree.
-6. Legacy Course page and Books & Journals subdomain: research first.
+Two people work on this at different hours. Claim a task by putting your name in **Owner** and pushing, so the other person doesn't start the same thing. Rules are in `AGENTS.md`.
+
+| # | Task | Owner | Status |
+|---|---|---|---|
+| 1 | Paste the GHL files into the LINKTREE Classic funnel and publish (Steps list screenshot first) | glez | Next |
+| 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Decision needed |
+| 3 | KFTK Inc link | JC | Waiting |
+| 4 | GoDaddy Delegate Access for `links.thescalableleader.net` | JC | Waiting |
+| 5 | GHL: Strategy Call booked workflow (confirmation email + SMS day before), 2-hour reschedule cutoff, focus-area question on the booking form, linktree lead tag | open | To do |
+| 6 | Legacy Course page: research (course in GHL, email and SMS campaigns, JC's marketing docs) | open | To do |
+| 7 | Books & Journals subdomain (Regal, journals, RVPT lanes): research | open | To do |
+
+JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Linktree-Blueprint.html` in a browser to see them in the questionnaire.
 
 ## Log
 
 - 2026-11-17: GHL direction set. GHL files rebuilt from the approved version and pixel-checked (≤0.5/255 difference on Strategy Call). All 11 destinations returned 200. Repo history replaced on GitHub with the clean version, so every device starts from the same copy.
+- 2026-11-17: Added `blueprint/` (JC's questionnaire with his answers baked in, a redacted answers file and the build plan), `AGENTS.md` (working rules for both devices) and the Task board.
