@@ -43,7 +43,7 @@ Two people work on this at different hours. Claim a task by putting your name in
 | # | Task | Owner | Status |
 |---|---|---|---|
 | 1 | Paste the GHL files into the LINKTREE Classic funnel and publish (Steps list screenshot first) | glez | Next |
-| 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Decision needed |
+| 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Resolved (keep Banks Team channels for now) |
 | 3 | KFTK Inc link | JC | Waiting |
 | 4 | GoDaddy Delegate Access for `links.thescalableleader.net` | JC | Waiting |
 | 5 | GHL: Strategy Call booked workflow (confirmation email + SMS day before), 2-hour reschedule cutoff, focus-area question on the booking form, linktree lead tag | open | To do |
@@ -56,3 +56,4 @@ JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Li
 
 - 2026-11-17: GHL direction set. GHL files rebuilt from the approved version and pixel-checked (≤0.5/255 difference on Strategy Call). All 11 destinations returned 200. Repo history replaced on GitHub with the clean version, so every device starts from the same copy.
 - 2026-11-17: Added `blueprint/` (JC's questionnaire with his answers baked in, a redacted answers file and the build plan), `AGENTS.md` (working rules for both devices) and the Task board.
+- 2026-11-17: Revamped Linktree cards based on JC's answers: refined Books & Journals subtitle to include RVPT curriculum, journals & books; updated Real Estate Agent Course to "Scale your real estate practice into a business"; confirmed KFTK Inc casing ("Faith Based Opportunities"); verified social channels (retaining Banks Team YouTube/Instagram); updated GHL paste and preview files.
