@@ -67,3 +67,4 @@ JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Li
 - Note: `ghl/build_ghl.py` stays the main build script. `ghl/build_ghl.js` (added on the other device) gives the same result, with different line endings only.
 - 2026-11-18 (glez): GoDaddy access is glez's task. A DNS check today found the two Cloudflare nameserver entries still in GoDaddy's DNS (unchanged since Aug 21), so that cleanup is still open and goes with the same access.
 - 2026-11-18 (glez): The Linktree step answers at both `/linktree` and `/links-page` (same step ID), so one update covers both. The step editor has a separate **Publish** button.
+- 2026-11-18 (glez): **Live GHL change:** created step **Strategy Call** (`/strategy-call`, also answers at `/strategy-call-page`) in LINKTREE - TSL, added a Code element with `ghl-paste-2-element-strategy-call.html`, and published. Verified live: content and labelled booking link present. Styling arrives with the Head-code swap.
