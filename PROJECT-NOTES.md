@@ -15,7 +15,7 @@ JC's link-in-bio page for The Scalable Leader. Each tab sends visitors to one cl
 | Piece | Where |
 |---|---|
 | Live page | GHL funnel **LINKTREE - TSL** (one step, "LInktree"), `grow.thescalableleader.net/linktree` |
-| Strategy Call page | Same funnel, new step `/strategy-call` (to be added) |
+| Strategy Call page | Same funnel, step `/strategy-call` (live 2026-11-18) |
 | Source of truth | This repo. Edit `index.html`, `strategy-call.html`, `css/style.css`, then rebuild the GHL files |
 | GHL paste files | `ghl/`: how to paste them is in `ghl/SETUP.md`; rebuild with `python3 ghl/build_ghl.py . ghl` |
 | Final address | `links.thescalableleader.net` (JC approved; waiting on GoDaddy access) |
@@ -42,7 +42,7 @@ Two people work on this at different hours. Claim a task by putting your name in
 
 | # | Task | Owner | Status |
 |---|---|---|---|
-| 1 | Paste the GHL files into the LINKTREE - TSL funnel and publish. Order: create `/strategy-call` step, then swap element + Head code, clear Body code, publish | glez | In progress |
+| 1 | Paste the GHL files into the LINKTREE - TSL funnel and publish | glez | Done 2026-11-18 (visual check on phone/desktop pending) |
 | 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Resolved (keep Banks Team channels for now) |
 | 3 | KFTK Inc link | JC | Waiting |
 | 4 | GoDaddy Delegate Access: get it set up, then add `links.thescalableleader.net` and remove the two stray Cloudflare nameserver entries from the DNS | glez | In progress |
@@ -68,3 +68,4 @@ JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Li
 - 2026-11-18 (glez): GoDaddy access is glez's task. A DNS check today found the two Cloudflare nameserver entries still in GoDaddy's DNS (unchanged since Aug 21), so that cleanup is still open and goes with the same access.
 - 2026-11-18 (glez): The Linktree step answers at both `/linktree` and `/links-page` (same step ID), so one update covers both. The step editor has a separate **Publish** button.
 - 2026-11-18 (glez): **Live GHL change:** created step **Strategy Call** (`/strategy-call`, also answers at `/strategy-call-page`) in LINKTREE - TSL, added a Code element with `ghl-paste-2-element-strategy-call.html`, and published. Verified live: content and labelled booking link present. Styling arrives with the Head-code swap.
+- 2026-11-18 (glez): **Live GHL change: the new linktree is live.** Pasted the new element into the Linktree step and published. Funnel Settings: Head tracking code replaced with `ghl-paste-1-head.html`, Body tracking code cleared, saved. Verified live: `/linktree`, `/links-page` and `/strategy-call` all serve v2 with no August code; all labelled links present. August version kept in `ghl/archive-2026-08-original-clone/` for rollback.
