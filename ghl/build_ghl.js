@@ -83,6 +83,8 @@ const noiseUri = 'data:image/svg+xml,' + encodeURIComponent(noise).replace(/%20/
 const guards = `
 /* GHL guards: full-bleed canvas, keep GHL's inherited styles out */
 body{background-color:#0A1420;overflow-x:hidden}
+html{background-color:#0A1420}
+.c-section:has(#tsl-tree),.c-row:has(#tsl-tree),.c-column:has(#tsl-tree),.c-section:has(#tsl-tree)>.inner,.c-row:has(#tsl-tree)>.inner,.c-column:has(#tsl-tree)>.inner{padding-top:0!important;padding-bottom:0!important;margin-top:0!important;margin-bottom:0!important}
 #tsl-tree{line-height:normal;text-align:left;font-size:16px;font-style:normal}
 #tsl-tree *{font-family:inherit;line-height:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;font-weight:inherit;font-style:inherit;text-decoration:none}
 #tsl-tree .tsl-page-alt a{text-decoration:underline}
