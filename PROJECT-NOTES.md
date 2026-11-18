@@ -45,7 +45,7 @@ Two people work on this at different hours. Claim a task by putting your name in
 | 1 | Paste the GHL files into the LINKTREE - TSL funnel and publish | glez | Done 2026-11-18 (visual check on phone/desktop pending) |
 | 2 | Social icons: keep The Banks Team YouTube and Instagram, or switch to TSL channels | glez | Resolved (keep Banks Team channels for now) |
 | 3 | KFTK Inc link | JC | Waiting |
-| 4 | GoDaddy Delegate Access: get it set up, then add `links.thescalableleader.net` and remove the two stray Cloudflare nameserver entries from the DNS | glez | In progress |
+| 4 | GoDaddy Delegate Access: get it set up, stray Cloudflare nameserver entries removed (done 2026-11-18); next: add `links.thescalableleader.net` (GHL domain first, then the CNAME) | glez | In progress |
 | 8 | Tab tracking: tag each lead with the tab they came from (`linktree:<tab>`). Design in progress, see Log | glez | In progress |
 | 9 | Ask JC: (a) does the Business Software app already send its users to GHL with a tag? (b) where does the app's code live (which GitHub account)? Cloudflare Pages only hosts it | glez | To ask JC |
 | 10 | Books & Journals capture page: new GHL step with a short form that invites people to leave their details, plus a small "Just browse" link to the bookshop; tag `linktree:books-journals` | glez | Approved, build after go-live |
@@ -71,3 +71,4 @@ JC's full answers: `blueprint/JC-answers-2026-11-06.txt`. Open `blueprint/TSL-Li
 - 2026-11-18 (glez): **Live GHL change: the new linktree is live.** Pasted the new element into the Linktree step and published. Funnel Settings: Head tracking code replaced with `ghl-paste-1-head.html`, Body tracking code cleared, saved. Verified live: `/linktree`, `/links-page` and `/strategy-call` all serve v2 with no August code; all labelled links present. August version kept in `ghl/archive-2026-08-original-clone/` for rollback.
 - 2026-11-18 (glez): Fixed a white strip at the top of the live page (GHL section/row/column top padding). Added rules to both build scripts: page background navy, and no top/bottom padding on the wrappers around `#tsl-tree`. Head code rebuilt; needs re-pasting into Head tracking code.
 - 2026-11-18 (glez): **Live GHL change:** re-pasted the Head tracking code with the white-strip fix. Verified live on `/linktree` and `/strategy-call`.
+- 2026-11-18 (glez): GoDaddy DNS: removed the two stray Cloudflare NS records (35 → 33 records). Verified from outside: only GoDaddy's ns71/ns72 left; website, www, app, grow, journals, portal and email records all resolve; sites load.
