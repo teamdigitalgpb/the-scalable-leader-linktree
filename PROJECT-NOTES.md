@@ -49,6 +49,7 @@ Two people work on this at different hours. Claim a task by putting your name in
 | 8 | Tab tracking: tag each lead with the tab they came from (`linktree:<tab>`). Design in progress, see Log | glez | In progress |
 | 9 | Ask JC: (a) does the Business Software app already send its users to GHL with a tag? (b) where does the app's code live (which GitHub account)? Cloudflare Pages only hosts it | glez | To ask JC |
 | 10 | Books & Journals capture page: new GHL step with a short form that invites people to leave their details, plus a small "Just browse" link to the bookshop; tag `linktree:books-journals` | glez | Approved, build after go-live |
+| 11 | Add the RVPT Lulu listings to journals.thescalableleader.net (repo `theleadersjournal`) | glez | Later |
 | 5 | GHL: Strategy Call booked workflow (confirmation email + SMS day before), 2-hour reschedule cutoff, focus-area question on the booking form, linktree lead tag | open | To do |
 | 6 | Legacy Course page: research (course in GHL, email and SMS campaigns, JC's marketing docs) | open | To do |
 | 7 | Books & Journals subdomain (Regal, journals, RVPT lanes): research | open | To do |
